@@ -57,6 +57,16 @@
         <li>SMS message content exchanged with our service</li>
       </ul>
 
+      <p>From contractors, we collect:</p>
+      <ul>
+        <li>Phone number and name</li>
+        <li>Trade and service area</li>
+        <li>SMS message content exchanged with our service</li>
+        <li>Stripe Express account information for payout processing</li>
+        <li>AGREE confirmation timestamp (binding acceptance of Contractor Terms)</li>
+        <li>Job history including claims, arrivals, and completions</li>
+      </ul>
+
       <h2>How We Use Your Information</h2>
       <p>We use your information to:</p>
       <ul>
@@ -66,6 +76,15 @@
         <li>Process payments for completed work</li>
         <li>Send you SMS messages related to your service request, including confirmations, updates, and follow-ups</li>
         <li>Improve our service</li>
+      </ul>
+
+      <p>For contractors, we use your information to:</p>
+      <ul>
+        <li>Dispatch job notifications matching your trade and area</li>
+        <li>Track job status through CLAIM, ARRIVED, and DONE commands</li>
+        <li>Process and disburse payouts via Stripe Express</li>
+        <li>Maintain a record of your agreement to our Contractor Terms</li>
+        <li>Manage your active or inactive status in the network</li>
       </ul>
 
       <h2>SMS Messaging</h2>
@@ -79,6 +98,8 @@
         <li>With contractors matched to your job (your name, address, job description, and scheduling details)</li>
         <li>With Stripe for payment processing</li>
         <li>With Twilio for SMS delivery</li>
+        <li>Supabase: Our database infrastructure where job records, user data, and transaction history are stored.</li>
+        <li>Anthropic: Our AI infrastructure processes incoming SMS messages to route and respond. Message content may be processed by Anthropic's API subject to their data handling policies.</li>
       </ul>
       <p>We do not sell, rent, or trade your personal information to third parties for marketing purposes.</p>
 
@@ -110,6 +131,7 @@
 
   <footer>
     <div class="container">
+      <p style="font-size:0.85rem;color:#aaa;margin-bottom:8px;"><a href="/privacy.html" style="color:#888;text-decoration:none;">Privacy Policy</a> &middot; <a href="/terms.html" style="color:#888;text-decoration:none;">Terms &amp; Conditions</a> &middot; <a href="/contractor-terms.html" style="color:#888;text-decoration:none;">Contractor Terms</a></p>
       <p class="footer-copy">&copy; 2026 GotaGuy. All rights reserved.</p>
     </div>
   </footer>
