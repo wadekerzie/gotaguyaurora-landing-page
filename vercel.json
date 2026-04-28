@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "builds": [{ "src": "public/**", "use": "@vercel/static" }],
-  "routes": [
-    { "src": "/how-it-works", "dest": "public/how-it-works.html" },
-    { "src": "/(.*)", "dest": "public/$1" }
+  "redirects": [
+    { "source": "/(.*)", "destination": "https://gotaguy.chat/denver/$1", "permanent": true }
   ]
 }
